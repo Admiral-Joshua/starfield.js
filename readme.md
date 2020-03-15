@@ -28,13 +28,13 @@ Installation Instructions:
  ```
 
  4. Customise to your liking.
- Currently implementation support the following customisation options to get you started, with plenty more in development!
-| Parameter        | Type           | Default  |
-| ------------- |:-------------:| -----:|
-| width      | number | window.innerWidth (full window width) |
-| height      | number | window.innerHeight (full window height) |
-| speed      | number | 1.5 |
-| maxRadius      | number | 3 |
-| particleCount      | number      |   500 |
+ The current implementation supports the following customisation options to get you started, with plenty more in development!
+| Parameter     | Type   | Default             |
+| ------------- |:------:| -------------------|
+| width         | number | window.innerWidth   |
+| height        | number | window.innerHeight  |
+| speed         | number | 1.5                 |
+| maxRadius     | number | 3                   |
+| particleCount | number | 500                 |
  
-NOTE: This plugin is still in development, so if there's an additional feature you'd like to have asked, feel free to raise the issue and I'll try to get on that or get back to you as soon as I can!
+> NOTE: This plugin is still in development, so if there's an additional feature you'd like to have asked, feel free to raise the issue and I'll try to get on that or get back to you as soon as I can!
