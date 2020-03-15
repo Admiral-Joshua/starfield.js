@@ -29,8 +29,9 @@ Installation Instructions:
 
  4. Customise to your liking.
  The current implementation supports the following customisation options to get you started, with plenty more in development!
+
 | Parameter     | Type   | Default             |
-| ------------- |:------:| -------------------|
+| ------------- |:------:| ------------------- |
 | width         | number | window.innerWidth   |
 | height        | number | window.innerHeight  |
 | speed         | number | 1.5                 |
