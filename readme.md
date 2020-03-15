@@ -20,7 +20,7 @@ Installation Instructions:
  <div id="starfieldContainer"></div>
  ```
 
- 3. Initialise with proposed configuration options:
+ 3. Quick Initialisation - Default config values, simply give it a document id for the container:
  ```html
  <script type="text/javascript">
      var debrisEffect = new SpaceDebris('debrisContainer');
@@ -38,4 +38,17 @@ Installation Instructions:
 | maxRadius     | number | 3                   |
 | particleCount | number | 500                 |
  
-> NOTE: This plugin is still in development, so if there's an additional feature you'd like to have asked, feel free to raise the issue and I'll try to get on that or get back to you as soon as I can!
+Config Example:
+ ```html
+ <script type="text/javascript">
+     var debrisEffect = new SpaceDebris('debrisContainer', {
+         width: 1920,
+         height: 1080,
+         speed: 1.5,
+         maxRadius: 2,
+         particleCount: 600
+     });
+ </script>
+ ```
+
+> NOTE: This plugin is still in development, so if there's an additional feature you'd like to have added, feel free to raise the issue and I'll try to get on that or get back to you as soon as I can!
