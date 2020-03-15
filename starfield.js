@@ -36,7 +36,7 @@ class debrisParticle {
     }
 }
 
-class SpaceDebris {
+class Starfield {
     constructor(docId, config) {
 
         var el = document.getElementById(docId);
@@ -65,7 +65,10 @@ class SpaceDebris {
             this._context = this._canvas.getContext('2d');
 
             el.appendChild(this._canvas);
+
         }
+
+        window.requestAnimationFrame(this.tick.bind(this));
     }
 
     tick() {
@@ -117,6 +120,8 @@ class SpaceDebris {
         } else {
             console.error("context not defined");
         }
+
+        window.requestAnimationFrame(this.tick.bind(this));
     }
 }
 
